@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|c:\\users\\charz\\documents\\github\\kulki-i-kreski---serious-game\\kulki i kreski\\kulki i kreski\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|solutionrelative:kulki i kreski\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|c:\\users\\charz\\documents\\github\\kulki-i-kreski---serious-game\\kulki i kreski\\kulki i kreski\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|solutionrelative:kulki i kreski\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|c:\\users\\charz\\documents\\github\\kulki-i-kreski---serious-game\\kulki i kreski\\kulki i kreski\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|solutionrelative:kulki i kreski\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|c:\\users\\charz\\documents\\github\\kulki-i-kreski---serious-game\\kulki i kreski\\kulki i kreski\\physicsengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|solutionrelative:kulki i kreski\\physicsengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|c:\\users\\charz\\documents\\github\\kulki-i-kreski---serious-game\\kulki i kreski\\kulki i kreski\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|solutionrelative:kulki i kreski\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|c:\\users\\charz\\documents\\github\\kulki-i-kreski---serious-game\\kulki i kreski\\kulki i kreski\\linesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|solutionrelative:kulki i kreski\\linesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|c:\\users\\charz\\documents\\github\\kulki-i-kreski---serious-game\\kulki i kreski\\kulki i kreski\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|solutionrelative:kulki i kreski\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|c:\\users\\charz\\documents\\github\\kulki-i-kreski---serious-game\\kulki i kreski\\kulki i kreski\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{14EB755C-06F5-4F1D-BF89-30A4EDFB7880}|Kulki i Kreski\\Kulki i Kreski.csproj|solutionrelative:kulki i kreski\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Ball.cs",
+              "RelativeDocumentMoniker": "Kulki i Kreski\\Ball.cs",
+              "ToolTip": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Ball.cs",
+              "RelativeToolTip": "Kulki i Kreski\\Ball.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:22:18.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LineSegment.cs",
+              "DocumentMoniker": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\LineSegment.cs",
+              "RelativeDocumentMoniker": "Kulki i Kreski\\LineSegment.cs",
+              "ToolTip": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\LineSegment.cs",
+              "RelativeToolTip": "Kulki i Kreski\\LineSegment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:21:57.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Target.cs",
+              "DocumentMoniker": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Target.cs",
+              "RelativeDocumentMoniker": "Kulki i Kreski\\Target.cs",
+              "ToolTip": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Target.cs",
+              "RelativeToolTip": "Kulki i Kreski\\Target.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:21:30.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhysicsEngine.cs",
+              "DocumentMoniker": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\PhysicsEngine.cs",
+              "RelativeDocumentMoniker": "Kulki i Kreski\\PhysicsEngine.cs",
+              "ToolTip": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\PhysicsEngine.cs",
+              "RelativeToolTip": "Kulki i Kreski\\PhysicsEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:21:04.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Level.cs",
+              "RelativeDocumentMoniker": "Kulki i Kreski\\Level.cs",
+              "ToolTip": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Level.cs",
+              "RelativeToolTip": "Kulki i Kreski\\Level.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:20:27.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\GameManager.cs",
+              "RelativeDocumentMoniker": "Kulki i Kreski\\GameManager.cs",
+              "ToolTip": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\GameManager.cs",
+              "RelativeToolTip": "Kulki i Kreski\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:10:00.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Kulki i Kreski\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Form1.Designer.cs",
+              "RelativeToolTip": "Kulki i Kreski\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:08:49.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Form1.cs",
+              "RelativeDocumentMoniker": "Kulki i Kreski\\Form1.cs",
+              "ToolTip": "C:\\Users\\charZ\\Documents\\GitHub\\Kulki-i-Kreski---Serious-Game\\Kulki i Kreski\\Kulki i Kreski\\Form1.cs [Design]",
+              "RelativeToolTip": "Kulki i Kreski\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T12:55:08.518Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

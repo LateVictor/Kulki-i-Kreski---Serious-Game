@@ -1,0 +1,107 @@
+﻿namespace Kulki_i_Kreski
+{
+    public partial class MenuForm : Form
+    {
+        private const int NumLevels = 5;
+
+        public MenuForm()
+        {
+            InitializeComponent();
+            SetupUI();
+        }
+
+        private void SetupUI()
+        {
+            // Configure the form
+            Text = "Kulki i Kreski - Main Menu";
+            ClientSize = new Size(500, 400);
+            StartPosition = FormStartPosition.CenterScreen;
+            BackColor = Color.FromArgb(240, 240, 240);
+            FormClosing += MenuForm_FormClosing;
+
+            // Title
+            Label titleLabel = new Label
+            {
+                Text = "Kulki i Kreski",
+                Font = new Font("Arial", 36, FontStyle.Bold),
+                ForeColor = Color.FromArgb(0, 102, 204),
+                AutoSize = true,
+                Location = new Point(60, 30),
+                TextAlign = ContentAlignment.MiddleCenter
+            };
+            Controls.Add(titleLabel);
+
+            // Level Selection Group
+            GroupBox levelGroupBox = new GroupBox
+            {
+                Text = "Select Level",
+                Font = new Font("Arial", 12, FontStyle.Bold),
+                Location = new Point(50, 100),
+                Size = new Size(400, 180)
+            };
+            Controls.Add(levelGroupBox);
+
+            // Create level buttons
+            for (int i = 1; i <= NumLevels; i++)
+            {
+                Button levelButton = new Button
+                {
+                    Text = $"Level {i}",
+                    Font = new Font("Arial", 11),
+                    Size = new Size(80, 40),
+                    Location = new Point(20 + ((i - 1) % 5) * 90, 30 + ((i - 1) / 5) * 50),
+                    BackColor = Color.FromArgb(0, 153, 255),
+                    ForeColor = Color.White,
+                    Cursor = Cursors.Hand,
+                    Tag = i
+                };
+                levelButton.Click += (s, e) => LevelButton_Click(i);
+                levelGroupBox.Controls.Add(levelButton);
+            }
+
+            // Exit Button
+            Button exitButton = new Button
+            {
+                Text = "Exit Game",
+                Font = new Font("Arial", 12, FontStyle.Bold),
+                Size = new Size(150, 50),
+                Location = new Point((ClientSize.Width - 150) / 2, 310),
+                BackColor = Color.FromArgb(220, 53, 69),
+                ForeColor = Color.White,
+                Cursor = Cursors.Hand
+            };
+            exitButton.Click += ExitButton_Click;
+            Controls.Add(exitButton);
+        }
+
+        private void LevelButton_Click(int levelNumber)
+        {
+            // Open the game form with the selected level
+            Form1 gameForm = new Form1(levelNumber);
+            gameForm.ShowDialog();
+        }
+
+        private void ExitButton_Click(object? sender, EventArgs e)
+        {
+            // Close the menu form, which will exit the application
+            Application.Exit();
+        }
+
+        private void MenuForm_FormClosing(object? sender, FormClosingEventArgs e)
+        {
+            // Ensure the application exits when the menu form closes
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void InitializeComponent()
+        {
+            components = new System.ComponentModel.Container();
+            AutoScaleMode = AutoScaleMode.Font;
+        }
+
+        private System.ComponentModel.IContainer? components = null;
+    }
+}

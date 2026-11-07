@@ -1,0 +1,17 @@
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki_i_Kreski.Form1.resources
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i Kreski.csproj.GenerateResource.cache
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i Kreski.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i Kreski.AssemblyInfoInputs.cache
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i Kreski.AssemblyInfo.cs
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i Kreski.csproj.CoreCompileInputs.cache
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\bin\Debug\net10.0-windows\Kulki i Kreski.exe
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\bin\Debug\net10.0-windows\Kulki i Kreski.deps.json
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\bin\Debug\net10.0-windows\Kulki i Kreski.runtimeconfig.json
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\bin\Debug\net10.0-windows\Kulki i Kreski.dll
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\bin\Debug\net10.0-windows\Kulki i Kreski.pdb
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i Kreski.dll
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\refint\Kulki i Kreski.dll
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i Kreski.pdb
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i Kreski.genruntimeconfig.cache
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\ref\Kulki i Kreski.dll
+C:\Users\charZ\Documents\GitHub\Kulki-i-Kreski---Serious-Game\Kulki i Kreski\Kulki i Kreski\obj\Debug\net10.0-windows\Kulki i .6211E29F.Up2Date

@@ -1,0 +1,53 @@
+﻿namespace Kulki_i_Kreski
+{
+    public partial class Form1 : Form
+    {
+        private int currentLevel = 1;
+
+        public Form1()
+        {
+            InitializeComponent();
+            currentLevel = 1;
+        }
+
+        public Form1(int levelNumber)
+        {
+            InitializeComponent();
+            currentLevel = levelNumber;
+            Text = $"Kulki i Kreski - Level {levelNumber}";
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            // Add a return to menu button
+            Button returnButton = new Button
+            {
+                Text = "Return to Menu",
+                Font = new Font("Arial", 10),
+                Size = new Size(120, 35),
+                Location = new Point(ClientSize.Width - 130, 10),
+                BackColor = Color.FromArgb(255, 193, 7),
+                ForeColor = Color.Black,
+                Cursor = Cursors.Hand
+            };
+            returnButton.Click += (s, e) => ReturnToMenu();
+            Controls.Add(returnButton);
+
+            // Load the level content here
+            LoadLevel(currentLevel);
+        }
+
+        private void LoadLevel(int levelNumber)
+        {
+            // TODO: Implement level loading logic
+            MessageBox.Show($"Level {levelNumber} loaded!", "Game");
+        }
+
+        private void ReturnToMenu()
+        {
+            this.Close();
+        }
+    }
+}

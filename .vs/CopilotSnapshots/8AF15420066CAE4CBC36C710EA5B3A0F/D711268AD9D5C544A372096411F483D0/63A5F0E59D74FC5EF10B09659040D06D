@@ -1,0 +1,195 @@
+﻿namespace Kulki_i_Kreski
+{
+    public partial class Form1 : Form
+    {
+        private int currentLevel = 1;
+        private Panel? menuPanel;
+        private Panel? gamePanel;
+
+        public Form1()
+        {
+            InitializeComponent();
+            SetupMainWindow();
+            CreateMenuPanel();
+            CreateGamePanel();
+            ShowMenu();
+        }
+
+        private void SetupMainWindow()
+        {
+            Text = "Kulki i Kreski";
+            ClientSize = new Size(1920, 1080);
+            StartPosition = FormStartPosition.CenterScreen;
+            BackColor = Color.FromArgb(240, 240, 240);
+            KeyPreview = true; // Enable form to receive key events before controls
+            KeyDown += Form1_KeyDown;
+        }
+
+        private void CreateMenuPanel()
+        {
+            menuPanel = new Panel
+            {
+                Dock = DockStyle.Fill,
+                BackColor = Color.FromArgb(240, 240, 240),
+                AutoScroll = true
+            };
+            Controls.Add(menuPanel);
+
+            // Title
+            Label titleLabel = new Label
+            {
+                Text = "Kulki i Kreski",
+                Font = new Font("Arial", 72, FontStyle.Bold),
+                ForeColor = Color.FromArgb(0, 102, 204),
+                AutoSize = false,
+                Size = new Size(1920, 200),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Location = new Point(0, 50)
+            };
+            menuPanel.Controls.Add(titleLabel);
+
+            // Level Selection Group
+            GroupBox levelGroupBox = new GroupBox
+            {
+                Text = "Select Level",
+                Font = new Font("Arial", 24, FontStyle.Bold),
+                Location = new Point(260, 280),
+                Size = new Size(1400, 450),
+                ForeColor = Color.Black
+            };
+            menuPanel.Controls.Add(levelGroupBox);
+
+            // Create level buttons
+            for (int i = 1; i <= 5; i++)
+            {
+                Button levelButton = new Button
+                {
+                    Text = $"Level {i}",
+                    Font = new Font("Arial", 20, FontStyle.Bold),
+                    Size = new Size(200, 100),
+                    Location = new Point(80 + ((i - 1) % 5) * 240, 80),
+                    BackColor = Color.FromArgb(0, 153, 255),
+                    ForeColor = Color.White,
+                    Cursor = Cursors.Hand,
+                    Tag = i,
+                    FlatStyle = FlatStyle.Flat
+                };
+                levelButton.FlatAppearance.BorderSize = 0;
+                levelButton.Click += (s, e) => LevelButton_Click(i);
+                levelGroupBox.Controls.Add(levelButton);
+            }
+
+            // Exit Button
+            Button exitButton = new Button
+            {
+                Text = "Exit Game",
+                Font = new Font("Arial", 24, FontStyle.Bold),
+                Size = new Size(300, 80),
+                Location = new Point((1920 - 300) / 2, 820),
+                BackColor = Color.FromArgb(220, 53, 69),
+                ForeColor = Color.White,
+                Cursor = Cursors.Hand,
+                FlatStyle = FlatStyle.Flat
+            };
+            exitButton.FlatAppearance.BorderSize = 0;
+            exitButton.Click += ExitButton_Click;
+            menuPanel.Controls.Add(exitButton);
+        }
+
+        private void CreateGamePanel()
+        {
+            gamePanel = new Panel
+            {
+                Dock = DockStyle.Fill,
+                BackColor = Color.FromArgb(50, 50, 50),
+                Visible = false
+            };
+            Controls.Add(gamePanel);
+
+            // Level title
+            Label levelTitleLabel = new Label
+            {
+                Text = $"Level {currentLevel}",
+                Font = new Font("Arial", 48, FontStyle.Bold),
+                ForeColor = Color.White,
+                AutoSize = false,
+                Size = new Size(1920, 100),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Location = new Point(0, 60)
+            };
+            gamePanel.Controls.Add(levelTitleLabel);
+
+            // Game content area (for future game rendering)
+            Panel gameContentArea = new Panel
+            {
+                BackColor = Color.FromArgb(60, 60, 60),
+                Location = new Point(100, 180),
+                Size = new Size(1720, 700),
+                BorderStyle = BorderStyle.FixedSingle
+            };
+            gamePanel.Controls.Add(gameContentArea);
+
+            // Instructions label
+            Label instructionsLabel = new Label
+            {
+                Text = "Press ESC to return to menu",
+                Font = new Font("Arial", 20),
+                ForeColor = Color.FromArgb(200, 200, 200),
+                AutoSize = false,
+                Size = new Size(1920, 60),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Location = new Point(0, 920)
+            };
+            gamePanel.Controls.Add(instructionsLabel);
+        }
+
+        private void ShowMenu()
+        {
+            menuPanel.Visible = true;
+            gamePanel.Visible = false;
+        }
+
+        private void ShowGame(int levelNumber)
+        {
+            currentLevel = levelNumber;
+            // Update game panel title
+            foreach (Control control in gamePanel.Controls)
+            {
+                if (control is Label label && label.Location.Y == 60)
+                {
+                    label.Text = $"Level {levelNumber}";
+                    break;
+                }
+            }
+
+            menuPanel.Visible = false;
+            gamePanel.Visible = true;
+            gamePanel.Focus(); // Ensure gamePanel has focus for key events
+        }
+
+        private void LevelButton_Click(int levelNumber)
+        {
+            ShowGame(levelNumber);
+        }
+
+        private void ExitButton_Click(object? sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Form1_KeyDown(object? sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                ShowMenu();
+                e.Handled = true; // Prevent other controls from processing ESC
+            }
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+        }
+    }
+}
+
